@@ -1,0 +1,40 @@
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+  height: 100%; /* Ensure the body and html take the full height */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Make the container take the full height of the viewport */
+}
+
+.header {
+  background-color: black;
+  color: white;
+  padding: 1.5rem;
+}
+
+.content {
+  display: flex;
+  flex: 1; /* Make the content area expand to fill the remaining space */
+}
+
+.sidebar {
+  background-color: rgb(165, 161, 161);
+  color: white;
+  width: 25%; /* Adjust the width as needed */
+}
+
+.main {
+  flex: 1; /* Make the main content expand to fill the remaining space */
+}
+
+.left-side {
+  background-color: rgb(171, 120, 120);
+  width: 25%; /* Adjust the width as needed */
+}
