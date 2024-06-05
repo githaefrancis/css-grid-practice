@@ -25,8 +25,8 @@ body {
 }
 
 .sidebar {
-  background-color: rgb(165, 161, 161);
-  color: white;
+  /* background-color: rgb(165, 161, 161); */
+  /* color: white; */
   width: 25%; /* Adjust the width as needed */
 }
 
@@ -35,6 +35,6 @@ body {
 }
 
 .left-side {
-  background-color: rgb(171, 120, 120);
+  /* background-color: rgb(171, 120, 120); */
   width: 25%; /* Adjust the width as needed */
 }
